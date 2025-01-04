@@ -4,3 +4,88 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #ffffcc;
+}
+nav{
+    width: 100%;
+    padding: 10px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px solid #48486a;
+    color: #48486a;
+}
+nav .logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav .logo::after{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    bottom: 20%;
+    left: 17.5%;
+    border-radius: 50%;
+    background: #48486a;
+}
+nav ul li{
+    display: inline-block;
+    font-weight: 600;
+    margin: 15px 30px;
+    padding: 10px 5px;
+    cursor: pointer;
+    color: #48486a;
+}
+nav .button{
+    padding: 10px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #ffcc99;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.text-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.text-box .user{
+    width: 50%;
+    margin-top: 25%;
+    color: #48486a;
+}
+.text-box .user h1{
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 500;
+}
+
+.text-box .user h1 span{
+    font-size: 70px;
+    font-weight: 600;
+}
+.text-box .user h2{
+    font-size: 45px;
+    margin-top: 40px;
+}
+
+.text-box .user p{
+    font-size: 15px;
+}
+
+.text-box .user-img{
+    width: 50%;
+}
+
+.text-box .user-img img{
+    position: absolute;
+    bottom: 50px;
+    right: 15%;
+}
